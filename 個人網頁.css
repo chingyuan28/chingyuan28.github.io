@@ -132,10 +132,6 @@ footer p {
         width: 100%;
     }
 }
-/* 圖片 */
-    .about-section img {
-        margin-right: 0; /* 移除圖片和文字的間距 */
-    }
 
     /* 影片 */
     .video-container {
