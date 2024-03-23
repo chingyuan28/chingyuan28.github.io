@@ -115,17 +115,17 @@ footer p {
 }
 
 /* RWD */
-@media only screen and (max-width: 800px) {
+@media only screen and (max-width: 768px) {
     .container {
         width: 90%;
     }
 
-    .menu,
-    .content {
-        width: 100%;
+    .menu {
         float: none;
+        width: 100%;
+        margin-bottom: 20px;
+        /* 間距 */
     }
-}
 
     .content {
         float: none;
