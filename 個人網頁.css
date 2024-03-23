@@ -63,7 +63,7 @@ p {
     width: 1200px;
 }
 
-/* MENU*/
+/* 選單 */
 .menu {
     float: left;
     width: 25%;
@@ -114,18 +114,18 @@ footer p {
     font-size: 10px;
 }
 
-/* RWD*/
+/* RWD */
 @media only screen and (max-width: 800px) {
     .container {
         width: 90%;
     }
 
-    .menu {
-        float: none;
+    .menu,
+    .content {
         width: 100%;
-        margin-bottom: 20px;
-        /* 底部間距 */
+        float: none;
     }
+}
 
     .content {
         float: none;
